@@ -1,0 +1,27 @@
+#about {
+    padding-top: 10rem;
+
+    h1 {
+        text-align: center;
+        margin-bottom: 3rem;
+        font-weight: bolder;
+        font-size: 3.5rem;
+    }
+
+    .skills_hobbies-box {
+        margin-top: 2rem;
+
+        h3 {
+            font-weight: bolder;
+            text-decoration: underline;
+            margin: 2rem 0;
+            font-size: 2rem;
+        }
+
+        h4 {
+           font-weight: bold;
+           font-size: 1.8rem;
+           margin-top: 1.5rem;
+        }
+    }
+}

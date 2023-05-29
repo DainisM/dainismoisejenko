@@ -1,0 +1,59 @@
+@import "~bootstrap/scss/bootstrap";
+
+html {
+	font-size: 10px;
+}
+
+html,
+body {
+	padding: 0;
+	margin: 0;
+}
+
+html,
+body,
+#root,
+.App {
+	height: 100%;
+}
+
+*,
+*::after,
+*::before {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+:root {
+	--blue: #0c0f13;
+	--white: rgb(236, 236, 236);
+}
+
+::selection {
+	background: #2ddab8;
+	color: white;
+}
+
+body {
+	font-family: "Open Sans", sans-serif;
+	font-size: 1.8rem;
+	font-weight: 400;
+	line-height: 1;
+	background: var(--background-color);
+	color: var(--text-color);
+	font-weight: var(--font-weight);
+	transition: background 0.3s ease-in-out, color 0.6s ease-in-out;
+}
+
+body.light {
+	--background-color: var(--white);
+	--text-color: var(--blue);
+	--font-weight: 400;
+}
+
+body.dark {
+	--background-color: var(--blue);
+	--text-color: var(--white);
+	--font-weight: 500;
+}

@@ -1,0 +1,52 @@
+#contact {
+    padding-top: 10rem;
+    padding-bottom: 5rem;
+
+    h1 {
+        text-align: center;
+        margin-bottom: 3rem;
+        font-weight: bolder;
+        font-size: 3.5rem;
+    }
+
+    h3 {
+        text-align: center;
+        font-weight: bolder;
+        margin: 3rem 0;
+        font-size: 2rem;
+    }
+
+    .contact-box {
+        margin-top: 2rem;
+
+        .contact_info-box {
+            align-items: center;
+            display: flex;
+            justify-content: center;
+            margin: 1rem 0;
+
+            span {
+                background-color: #fff;
+                border-radius: 50%;
+                box-shadow: 0 0 10px rgba(0,0,0,.1);
+                padding: 2.3rem;
+            }
+
+            .contact_info {
+                margin-left: 1rem;
+                width: 22rem;
+
+                h4 {
+                    font-weight: bolder;
+                    font-size: 2rem;
+                }
+                
+                a {
+                    color: darkcyan;
+                    cursor: pointer;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+}

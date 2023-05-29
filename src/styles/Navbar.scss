@@ -1,0 +1,88 @@
+nav {
+	display: flex;
+	justify-content: right;
+	background-color: rgb(23, 36, 48);
+	position: fixed;
+	top: 0;
+    left: 0;
+	width: 100%;
+	z-index: 1;
+
+    .navList {
+        margin: auto 0;
+        display: flex;
+        gap: 2rem;
+        list-style: none;
+        
+        li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        li a:hover {
+            scale: 1.1;
+            color: darkcyan;
+        }
+    }
+
+    .navControls {
+        margin: 0 2rem;
+    }
+
+    .mobileMenu {
+        display: none;
+    } 
+
+    @media only screen and (max-width: 767px) {  
+
+        .mobileMenu {
+            display: block;
+            margin: 0.5rem 1rem;
+            cursor: pointer;
+        }
+
+        .navControls,
+        .navList {
+            display: none;
+        }
+    }
+}
+
+.modal-header {
+    background-color: rgb(23, 36, 48);
+
+    .btn-close {
+        background-color: darkcyan;
+    }
+}
+
+.modal-body {
+    background: var(--background-color);
+
+    .navModal-ul {
+        margin-top: 2rem;
+        list-style: none;
+        text-align: center;
+    }
+
+    .navModal-ul li {
+        margin-bottom: 1rem;
+    }
+    
+    li a {
+        font-size: xx-large;
+        text-decoration: none;
+        list-style: none;
+        color: var(--text-color);
+        
+    }
+
+    li a:hover {
+        scale: 1.1;
+        color: darkcyan;
+    }
+
+    .modalDarkmode {
+        text-align: center;
+    }
+}

@@ -1,0 +1,66 @@
+.Main {
+	font-family: sans-serif;
+	background: inherit;
+	margin: auto 3rem;
+}
+
+.DropDownContainer {
+	z-index: 1;
+	width: 12rem;
+}
+
+.DropDownHeader {
+	font-weight: 500;
+	font-size: 1.3rem;
+	color: #3faffa;
+	background: inherit;
+	cursor: pointer;
+}
+
+.DropDownList {
+	padding: 0;
+	margin: 0;
+	margin-right: 2em;
+	padding-left: 0.7em;
+	padding-top: 1em;
+	background: #ffffff;
+	border: 2px solid #e5e5e5;
+	border-radius: 20px;
+	box-sizing: border-box;
+	color: #3faffa;
+	font-size: 1.7rem;
+	font-weight: 500;
+}
+
+.DropDownBox {
+	width: 18rem;
+	position: absolute;
+	z-index: 2;
+}
+
+.ListItem {
+	list-style: none;
+	margin-bottom: 0.8em;
+	vertical-align: middle;
+}
+
+.flagItem {
+	cursor: pointer;
+}
+
+.flagItem:hover {
+	scale: 1.1;
+	color: #30d95d;
+}
+
+.flagItem img {
+	display: inline-block;
+}
+
+.flagItem p {
+	position: absolute;
+	display: inline-block;
+	margin: 0;
+	padding-left: 15px;
+	padding-top: 3px;
+}

@@ -1,0 +1,21 @@
+footer {
+    background-color: rgb(23, 36, 48);
+    text-align: center;
+    padding: 1rem;
+
+    .footerc {
+        margin: 1rem 0;
+        color: white;
+        margin: auto;
+    }
+
+    .footerLinks {
+        margin: 1rem 0;
+        
+        a {
+            margin: 0 1rem;
+            cursor: pointer;
+            text-decoration: none;
+        }
+    }
+}
